@@ -1,0 +1,16 @@
+export { api, apiMethods } from "./axios";
+export { authApi } from "./auth.api";
+export { userApi } from "./user.api";
+export { departmentApi } from "./department.api";
+export { courseApi } from "./course.api";
+export { dashboardApi } from "./dashboard.api";
+export { enrollmentApi } from "./enrollment.api";
+export { attendanceApi } from "./attendance.api";
+export { assessmentApi } from "./assessment.api";
+export { feeApi } from "./fee.api";
+export { libraryApi } from "./library.api";
+export { markApi } from "./mark.api";
+export { noticeApi } from "./notice.api";
+export { timetableApi } from "./timetable.api";
+export { semesterApi } from "./semester.api";
+export { courseOfferingApi } from "./courseOffering.api";

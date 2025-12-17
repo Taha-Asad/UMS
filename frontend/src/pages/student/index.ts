@@ -1,0 +1,9 @@
+export { Dashboard } from "./Dashboard";
+export { MyCourses } from "./MyCourses";
+export { Enrollment } from "./Enrollment";
+export { Assignments } from "./Assignments";
+export { Attendance } from "./Attendance";
+export { Grades } from "./Grades";
+export { Fees } from "./Fees";
+export { Timetable } from "./Timetable";
+export { Library } from "./Library";

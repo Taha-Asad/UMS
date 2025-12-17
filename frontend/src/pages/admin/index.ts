@@ -1,0 +1,13 @@
+export { Dashboard } from "./Dashboard";
+export { Users } from "./Users";
+export { Departments } from "./Departments";
+export { Courses } from "./Courses";
+export { CourseOfferings } from "./CourseOfferings";
+export { Enrollments } from "./Enrollments";
+export { Timetable } from "./Timetable";
+export { Assessments } from "./Assessments";
+export { Semesters } from "./Semesters";
+export { Fees } from "./Fees";
+export { Library } from "./Library";
+export { Reports } from "./Reports";
+export { Settings } from "./Settings";
