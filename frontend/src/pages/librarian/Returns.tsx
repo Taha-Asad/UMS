@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import { Box, Chip, IconButton, Tooltip } from "@mui/material";
+import { Box, Chip } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
 import { libraryApi } from "../../api";
-import type { BookIssue } from "../../api";
 import { PageHeader } from "../../components/layout";
 import { Table, EmptyState, Spinner, Button } from "../../components/common";
 import toast from "react-hot-toast";
 import { format } from "date-fns";
 import { AxiosError } from "axios";
+import type { BookIssue } from "../../types";
 
 export const Returns = () => {
   const [issues, setIssues] = useState<BookIssue[]>([]);
@@ -95,7 +95,7 @@ export const Returns = () => {
               header: "Status",
               render: (row) => (
                 <Chip
-                  label={row.status}
+                  label={row.status as string}
                   size="small"
                   color={
                     row.status === "returned"

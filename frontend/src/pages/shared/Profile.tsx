@@ -40,7 +40,7 @@ export const Profile = () => {
       ) : (
         <Card>
           <Grid container spacing={3}>
-            <Grid item xs={12} sm={6}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Box>
                 <Box
                   sx={{ fontSize: "0.75rem", color: "text.secondary", mb: 0.5 }}
@@ -50,7 +50,7 @@ export const Profile = () => {
                 <Box sx={{ fontWeight: 600 }}>{user.full_name}</Box>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Box>
                 <Box
                   sx={{ fontSize: "0.75rem", color: "text.secondary", mb: 0.5 }}
@@ -60,7 +60,7 @@ export const Profile = () => {
                 <Box sx={{ fontWeight: 600 }}>{user.username}</Box>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Box>
                 <Box
                   sx={{ fontSize: "0.75rem", color: "text.secondary", mb: 0.5 }}
@@ -70,7 +70,7 @@ export const Profile = () => {
                 <Box sx={{ fontWeight: 600 }}>{user.email}</Box>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Box>
                 <Box
                   sx={{ fontSize: "0.75rem", color: "text.secondary", mb: 0.5 }}
@@ -83,7 +83,7 @@ export const Profile = () => {
               </Box>
             </Grid>
             {user.department_name && (
-              <Grid item xs={12} sm={6}>
+              <Grid size={{ xs: 12, sm: 6 }}>
                 <Box>
                   <Box
                     sx={{

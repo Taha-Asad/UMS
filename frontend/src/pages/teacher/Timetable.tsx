@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { Box, Chip } from "@mui/material";
+import { Box } from "@mui/material";
 import { timetableApi } from "../../api";
-import type { TimetableEntry } from "../../api";
 import { PageHeader } from "../../components/layout";
-import { Table, EmptyState, Spinner, Card } from "../../components/common";
+import { EmptyState, Spinner, Card } from "../../components/common";
 import { useAuthStore } from "../../store";
-import { Schedule as ScheduleIcon } from "@mui/icons-material";
+import type { TimetableEntry } from "../../api/timetable.api";
 
 const daysOrder = [
   "Monday",
